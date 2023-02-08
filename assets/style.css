@@ -1,0 +1,79 @@
+
+.background_lila{
+  background-image: url('imagens/imagem_fundo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  padding: 1rem;
+  margin-right: 5%;  
+}
+
+.menu a {
+  color: white;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  background-color: var(--cor3);
+  border-radius: 3px;
+  padding: 2%;
+}
+
+.nomes{
+  display: flex;
+  gap: 0.5em;
+}
+
+.nome_lila1 {
+  color: var(--cor3);
+  font-variant: small-caps;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  margin-top: 50vh;
+  margin-left: 10%;
+
+}
+
+.nome_lila2{
+  color: var(--cor3);
+  font-variant: small-caps;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  margin-top: 50vh;
+
+}
+
+.developer{
+  display: flex;
+  margin-left: 10.2%;
+  color: white;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+
+  overflow: hidden;
+  white-space: nowrap;
+  animation: escrita 6s steps(40, end);
+  animation-iteration-count: infinite;
+}  
+
+@keyframes escrita {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}

@@ -1,0 +1,49 @@
+@media (max-width: 1440px){
+  
+  .sobre_img img {
+    width: 70%;
+  }
+
+  .sobre h1{
+    margin-left: 9.5em;
+  }
+
+  .sobre p {
+    margin-left: 4.5em;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .nomes{
+    gap: 0.5em;
+  }
+
+  .nome_lila1{
+    margin-left: 5%;
+    font-size: 2em;
+  }
+
+  .nome_lila2{
+    font-size: 2em;
+  }
+
+  .developer{
+    margin-left: 5.%;
+  }
+
+  .sobre_img img {
+    width: 75%;
+  }
+
+  .sobre h1{
+    margin-left: 10.5em;
+    font-size: 2rem;
+  }
+
+  .sobre p {
+    margin-right: 3em;
+    margin-left: 4.8em;
+    font-size: 1em;
+  }
+}

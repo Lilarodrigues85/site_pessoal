@@ -14,6 +14,10 @@
 }
 
 @media (max-width: 1024px){
+  
+  .background_lila{
+    background-image: url('imagens/imagem_fundo_1024.png');
+  }
 
   .nomes{
     gap: 0.5em;
@@ -29,15 +33,15 @@
   }
 
   .developer{
-    margin-left: 5.%;
+    margin-left: 5.3%;
   }
 
   .sobre_img img {
-    width: 75%;
+    width: 80%;
   }
 
   .sobre h1{
-    margin-left: 10.5em;
+    margin-left: 7.5em;
     font-size: 2rem;
   }
 
@@ -46,4 +50,11 @@
     margin-left: 4.8em;
     font-size: 1em;
   }
+}
+
+@media (max-width: 375px){
+  .background_lila{
+    background-image: url('imagens/imagem_fundo_375.png');
+  }
+
 }

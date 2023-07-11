@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color1: rgb(38, 37, 38);
+  --color2: rgb(20, 69, 166);
+  --color3: rgb(14, 39, 89);
+  --color4: rgb(15, 80, 166);
+  --color5: rgb(102, 216, 242);
+  --color6: #ffffff;
+}
+
 body{
-  background-color: black;
+  background-color: var(--color1);
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
